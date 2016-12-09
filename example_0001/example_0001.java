@@ -14,14 +14,14 @@ public class Task1
 	{
 		String S1;
 		Scanner scan = new Scanner(System.in);
-		boolean ret1, ret2;
-			
+		boolean ret1, ret2;		
+				
 		System.out.println("Введите строку: ");		
 		S1 = scan.next();
 	
 		ret1 = isFirstLastCharsEquals1(S1);
 		ret2 = isFirstLastCharsEquals2(S1);
-		System.out.println("\nРезультат: " + ret1 + ", " + ret2);
+		System.out.println("\nРезультат: " + ret1 + ", " + ret2);	
 	}
 	
 	static boolean isFirstLastCharsEquals1(String s)
@@ -38,7 +38,8 @@ public class Task1
 		System.out.print("Array: ");
 		for(i = 0; i<len; i++)
 		{
-			System.out.print(chArray[i] + "==" + (int)chArray[i]);	
+			System.out.print(chArray[i] + "==" + (int)chArray[i]);
+			
 		}
 		System.out.println(" ");
 				

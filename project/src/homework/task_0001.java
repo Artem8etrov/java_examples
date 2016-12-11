@@ -1,7 +1,7 @@
-package homework;
+п»їpackage homework;
 
-/* Task 5(charAt). Ќаписать метод, принимающий в качестве параметра строку и   
- * определ¤ющий равны ли первый и последний символ в строке.
+/* Task 5(charAt). РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ, РїСЂРёРЅРёРјР°СЋС‰РёР№ РІ РєР°С‡РµСЃС‚РІРµ РїР°СЂР°РјРµС‚СЂР° СЃС‚СЂРѕРєСѓ Рё   
+ * РѕРїСЂРµРґРµР»В§СЋС‰РёР№ СЂР°РІРЅС‹ Р»Рё РїРµСЂРІС‹Р№ Рё РїРѕСЃР»РµРґРЅРёР№ СЃРёРјРІРѕР» РІ СЃС‚СЂРѕРєРµ.
  * boolean isFirstLastCharsEquals(String s)
  */
 
@@ -16,12 +16,12 @@ public class task_0001
 		Scanner scan = new Scanner(System.in);
 		boolean ret1, ret2;		
 				
-		System.out.println("¬ведите строку: ");		
+		System.out.println("С’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");		
 		S1 = scan.next();
 	
 		ret1 = isFirstLastCharsEquals1(S1);
 		ret2 = isFirstLastCharsEquals2(S1);
-		System.out.println("\n–езультат: " + ret1 + ", " + ret2);	
+		System.out.println("\nР¦РµР·СѓР»СЊС‚Р°С‚: " + ret1 + ", " + ret2);	
 	}
 	
 	static boolean isFirstLastCharsEquals1(String s)

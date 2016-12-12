@@ -21,7 +21,7 @@ public class task_0001
 	
 		ret1 = isFirstLastCharsEquals1(S1);
 		ret2 = isFirstLastCharsEquals2(S1);
-		System.out.println("\nЦезультат: " + ret1 + ", " + ret2);	
+		System.out.println("Результат: " + ret1 + ", " + ret2);	
 	}
 	
 	static boolean isFirstLastCharsEquals1(String s)
